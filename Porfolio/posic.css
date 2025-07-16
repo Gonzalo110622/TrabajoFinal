@@ -1,0 +1,130 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg,#df3535, #bdd4ee);
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh; 
+}
+
+.navbar {
+  background: linear-gradient(135deg, #27394b, #570404);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; 
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #9fc5f1;
+}
+header {
+  color: white;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  width: 50px;
+  height: auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+table {
+  width: 95%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.397);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: left;
+}
+
+th {
+  background-color: #111;
+  color:  #ffffffb9;
+  padding: 15px;
+  font-size: 1.1em;
+}
+
+td {
+  padding: 15px;
+  border-bottom: 1px solid #eeeeee62;
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.39);
+}
+#buscador {
+  width: 300px;
+  padding: 10px 15px;
+  margin: 20px auto;
+  display: block;
+  font-size: 1em;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#buscador:focus {
+  border-color: #d10000;
+  box-shadow: 0 0 8px rgba(209, 0, 0, 0.3);
+}
+.mensaje-lider {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #d10000; 
+  margin-bottom: 25px;
+}
+footer {
+  background: linear-gradient(135deg, #ff2b2b, #bebfc0);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: auto;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

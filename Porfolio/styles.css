@@ -208,7 +208,7 @@ header h1 {
 }
 
 footer {
-  background: linear-gradient(135deg, #021e3a, #9fc5f1);
+  background: linear-gradient(135deg, #ff2b2b, #bebfc0);
   color: white;
   text-align: center;
   padding: 1em 0;
@@ -242,7 +242,7 @@ footer {
 }
 
 #play-anthem:hover {
-  background: #0052a3;
+  background: #ff4848;
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
